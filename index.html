@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics Assignment</title>
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Internal CSS -->
+    <style>
+        h1 {
+            font-size: 28px;
+            color: darkblue;
+        }
+
+        .section {
+            background-color: #f4f4f4;
+            padding: 15px;
+            margin: 10px 0;
+        }
+
+        #unique-box {
+            border: 2px solid #333;
+            padding: 10px;
+            width: 80%;
+            margin: auto;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to CSS Basics</h1>
+    </header>
+
+    <section class="section">
+        <p style="color: red;">This paragraph has inline CSS to change text color.</p>
+    </section>
+
+    <section class="section">
+        <div id="unique-box">
+            <h2>Unique Box</h2>
+            <p>This box has an ID selector applied.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="card">
+            <h2 class="card-title">Card Title</h2>
+            <p class="card-text">This is a simple card component with padding and a light background.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Visit <a href="#">our website</a> for more info.</p>
+    </footer>
+
+</body>
+</html>
